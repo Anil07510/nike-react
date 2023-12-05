@@ -3,7 +3,7 @@ import PopularProductsCard from "../components/PopularProductsCard";
 
 const PopularProducts = () => {
   return (
-    <div className="popularproduct py-1 max-container">
+    <div id="products" className="popularproduct py-1 max-container">
       <h2 className="text-3xl font-palanquin font-extrabold">
         Our <span className="text-[red]">Popular</span> Products
       </h2>

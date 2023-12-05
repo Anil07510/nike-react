@@ -3,7 +3,7 @@
 import Button from "../components/Button";
 const Subscribe = () => {
   return (
-    <div className="max-container flex flex-col justify-between items-center">
+    <div id="subscribe" className="max-container flex flex-col justify-between items-center">
       <h2 className="font-bold text-2xl">
         Sign Up For <span className="text-coral-red">Updates </span> &
         Newsletter

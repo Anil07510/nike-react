@@ -44,7 +44,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className=" relative flex-1 h-[80vh] bg-gray-400 bg-hero bg-cover bg-center justify-center items-center">
+      <div className=" relative flex-1 h-[70vh] bg-gray-400 bg-hero bg-cover bg-center justify-center items-center">
         <img src={bigShoeImg} alt="img" />
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[4%] sm:left-[20%] max-sm:px-6 ">
           {shoes.map((item) => (
